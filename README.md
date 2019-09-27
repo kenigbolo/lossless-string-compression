@@ -50,7 +50,7 @@ the repository. To test out a request via curl, you can run the following
 curl -F "file=@/path/to/this/folder/reverse.txt" localhost:3000/decompress
 ```
 
-> Do replace /path/to/this/folder with the correct path to this folder on your
+> ⚠️ Do replace /path/to/this/folder with the correct path to this folder on your
 > host machine (you can get the path by running the command `pwd` inside this
 > folder in your terminal)
 
