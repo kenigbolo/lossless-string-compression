@@ -13,7 +13,7 @@
 
 ## Description
 
-A vannila JavaScript Node API server which performs lossless string compression
+A JavaScript Node API server which performs lossless string compression
 and decompression.
 
 ## Usage
