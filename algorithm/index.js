@@ -45,7 +45,7 @@ function compression(wordsArray) {
  * @return {Array<String>} The decompressed array of strings
  */
 function decompression(compressedWordsArray) {
-  if (wordsArray.length === 0) return ['']
+  if (compressedWordsArray.length === 0) return ['']
   const myArray = [];
   compressedWordsArray.forEach((currentWord, index) => {
     if (index === 0) {
