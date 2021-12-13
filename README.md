@@ -47,7 +47,7 @@ Two sample files (`compress.txt` and `decompress.txr`) are provided in root of
 the repository. To test out a request via curl, you can run the following
 
 ```shell
-curl -F "file=@/path/to/this/folder/reverse.txt" localhost:3000/decompress
+curl -F "file=@/path/to/this/folder/reverse.txt" localhost:9000/decompress
 ```
 
 > ⚠️ Do replace /path/to/this/folder with the correct path to this folder on your
@@ -59,6 +59,6 @@ curl -F "file=@/path/to/this/folder/reverse.txt" localhost:3000/decompress
 - This tool requires a properly formatted text file where each string is on a
   new line.
 
-- NPM versions lower than 6.x should ideally work but I advice to use 6.x
+- NPM versions lower than 6.x should ideally work but I advice to use 6.x or higher
 
 - `application/json` requests should have the key `data` in the body with a comma seperated string value
